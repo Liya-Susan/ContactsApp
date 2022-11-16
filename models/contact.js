@@ -22,4 +22,4 @@ contactSchema.path('email').validate((val) => {
 }, 'Invalid e-mail.');
 
 var Contact = mongoose.model('Contact',contactSchema);
-module.exports=Contact
+module.exports=Contact 

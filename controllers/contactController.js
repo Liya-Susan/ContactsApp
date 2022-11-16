@@ -51,7 +51,7 @@ function updateRecord(req, res) {
                 handleValidationError(err, req.body);
                 res.render("contact/addOrEdit", {
                     viewTitle: 'Update Contact',
-                    contact: req.body
+                    contact: req.body 
                 });
             }
             else
