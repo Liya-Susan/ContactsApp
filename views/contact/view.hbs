@@ -1,0 +1,18 @@
+<div style="display: flex">
+    <div style="flex-grow: 1"><a href="/contact/list"><i class="material-icons" style="color:black">arrow_back</i></a></div>
+    <div style="flex-grow: 8">
+        <br/>
+<h5><b>Name : </b>{{contact.fullname}}</h5>
+<h5><b>Email : </b>{{contact.email}}</h5>
+<h5><b>Mobile Number : </b>{{contact.mobile}}</h5>
+<h5><b>City : </b>{{contact.city}}</h5>
+
+</div>
+<div >
+    <a href="/contact/{{contact._id}}"><i class="material-icons" style="color:black">edit</i></a>
+    <a href="/contact/delete/{{contact._id}}" ><i class="material-icons" style="color:black">delete</i></a>
+</div>
+</div>
+
+
+

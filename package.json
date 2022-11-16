@@ -1,0 +1,24 @@
+{
+  "name": "project-16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "handlebars": "^4.5.0",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,30 @@
+<table class="table table-striped">
+   <div class="row" style="margin-bottom: 30px;">
+    <h3 class="col-md-9">All Contacts</h3>
+    <h3 class="col-md-3"><a class="btn btn-secondary" href='/contact'>Create New</a></h3>
+    </div>
+    <br/>
+    	
+
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.fullname}}</td>
+            <td>{{this.email}}</td>
+            
+            <td>
+                <a href="/contact/view/{{this._id}}"><i class="material-icons" style="color:black">visibility</i></a>
+                
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
